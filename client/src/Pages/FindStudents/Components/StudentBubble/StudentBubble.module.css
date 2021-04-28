@@ -1,0 +1,11 @@
+.image {
+    height: 100%;
+    width: auto;
+}
+
+.image_container {
+    height: 78.5%;
+    padding-right: 7%;
+    padding-left: 10%;
+    vertical-align: middle;
+}

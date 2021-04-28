@@ -1,0 +1,22 @@
+.header {
+    font-weight: 500;
+    font-size: calc(14.584px + 0.4425vw);
+    margin-bottom: 5px;
+}
+
+.divider {
+    background-color: #CACACA;
+    height: 2px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.profile {
+    margin-bottom: 10px!important;
+}
+
+@media (min-width:1450px) {
+    .header {
+        font-size: 21px;
+    }
+}

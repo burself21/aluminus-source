@@ -1,0 +1,145 @@
+
+.mobile_section {
+    text-align: center;
+}
+
+.mobile_section:not(:nth-of-type(4), :nth-of-type(5)) {
+    margin-bottom: 30px;
+}
+
+#container {
+    background-color: #f4f4f4;
+    padding-top: 10.8vh;
+    padding-bottom: 7.2vh;
+}
+
+#root {
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+}
+
+.section_header {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #adadad;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+
+}
+
+.grid_row:first-of-type {
+    margin-bottom: 9.6vh;
+}
+
+.contact_icon:not(:last-of-type) {
+    margin-right: 2.3vw;
+}
+
+.contact_icon svg {
+    color: #DB0202;
+}
+
+#email {
+    color: #DB0202;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+#email:hover {
+    text-decoration: underline;
+}
+
+#info_header {
+    margin-bottom: 2.4vh;
+}
+
+#keep_in_touch {
+    margin-bottom: 2.4vh;
+}
+
+.info_item {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: #2D3436;
+    pointer-events: all;
+    text-decoration: none;
+}
+
+.info_item:hover {
+    text-decoration: underline;
+}
+
+
+.grid_section > form, .mobile_section > form {
+    width: 90%;
+}
+
+#copyright_section {
+    margin-top: 6vh;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+
+}
+
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+
+}
+@media (min-width:960px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    
+}
+
+@media(min-width:1360px) {
+
+}
+
+@media(min-width:1483px) {
+    #container {
+        padding-top: 90px;
+        padding-bottom: 60px;
+    }
+    
+    #root {
+        width: 1212px;
+        left: calc((100vw - 1212px) / 2);
+    }
+
+    .grid_row:first-of-type {
+        margin-bottom: 80px;
+    }
+    
+    .contact_icon:not(:last-of-type) {
+        margin-right: 34px;
+    }
+    
+    #info_header {
+        margin-bottom: 20px;
+    }
+    
+    #keep_in_touch {
+        margin-bottom: 20px;
+    }
+    
+    #copyright_section {
+        margin-top: 50px;
+    }
+}
+
