@@ -1,5 +1,1 @@
-./client/build/
-./server/node_modules/
-./client/node_modules/
-./server/README
-./client/README.md
+node_modules/
