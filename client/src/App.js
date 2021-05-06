@@ -12,8 +12,9 @@ import { Home } from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import Signup from './Pages/Signup/Signup';
 import FindSchool from './Pages/FindSchool/FindSchool';
+import MyStudents from './Pages/MyStudents/MyStudents';
 import FindStudents from './Pages/FindStudents/FindStudents';
-
+import AdjustSupport from './Pages/AdjustSupport/AdjustSupport';
 
 class App extends React.Component {
 
@@ -49,11 +50,23 @@ class App extends React.Component {
                             </Helmet>
                             <FindSchool />
                         </Route>
+                        <Route path="/my-students">
+                            <Helmet>
+                                <title> Aluminus | My Students </title>
+                            </Helmet>
+                            <MyStudents />
+                        </Route>
                         <Route path="/find-students">
                             <Helmet>
                                 <title> Aluminus | Find Students </title>
                             </Helmet>
                             <FindStudents />
+                        </Route>
+                        <Route path="/adjust-support">
+                            <Helmet>
+                                <title> Aluminus | Adjust Support </title>
+                            </Helmet>
+                            <AdjustSupport />
                         </Route>
                     </Switch>
                 </div>
