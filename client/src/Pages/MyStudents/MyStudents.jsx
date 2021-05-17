@@ -99,7 +99,7 @@ const MyStudents = () => {
                         <div id={styles.right_content}>
                             <Card variant="outlined" className={classes.addStudentContainer}>
                                 <p>Want to support another student?</p>
-                                <Button variant="outlined" className={classes.addStudentButton}>
+                                <Button variant="outlined" className={classes.addStudentButton} href="/find-students">
                                     Support a new student
                                 </Button>
                             </Card>

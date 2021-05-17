@@ -9,7 +9,7 @@ const AdjustSupport = () => {
     return (
         <div id={styles.container}>
             <div id={styles.content}>
-                <h1 style={{width: "100%", textAlign: "center"}}>This will be the adjust students page.</h1>
+                <h1 style={{width: "100%", textAlign: "center"}}>This will be the adjust support page.</h1>
             </div>
         </div>
     )

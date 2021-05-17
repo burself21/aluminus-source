@@ -1,0 +1,94 @@
+.bioPreview {
+    width: 88%;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    font-size: 13px;
+    line-height: 16px;
+    height: 48px;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.bioPreview::after {
+    content: "";
+    
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 0.9em;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+}
+
+.divider {
+    background-color: #CACACA;
+    height: 1.5px;
+    width: 90%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.info {
+    width: 90%;
+    padding: 10px 5% 0 5%;
+}
+
+.infoBubble {
+    border-radius: 10px;
+    border: 2px solid #AFAFAF;
+    font-size: 11px;
+    display: inline;
+    padding: 2% 5%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+}
+
+.headerContainer {
+    width: 65%;
+    float: right;
+    display: flex;
+    padding-top: 6%;
+    flex-wrap: wrap;
+}
+
+.name {
+    text-align: center;
+    font-size: 13px;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.outerLink {
+    display: block;
+    text-decoration: none;
+}
+
+.photoContainer {
+    float: left;
+    width: 30%;
+}
+.photo {
+    width: 100%;
+    height: auto;
+}
+
+.supportBarContainer {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.supportText {
+    font-size: 13px;
+    width: 82%;
+    margin: 0 auto 5px auto;
+    text-align: center;
+
+}
+
+.supportText span {
+    font-weight: 600;
+}

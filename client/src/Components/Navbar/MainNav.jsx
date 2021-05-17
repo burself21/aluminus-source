@@ -87,9 +87,7 @@ const useStyles = makeStyles(theme => ({
 
         marginRight: "50px",
         lineHeight: 35,
-        '&:hover': {
-            textDecoration: "none"
-        }  
+        textDecoration: "none"
     },
 
     dropdown: {
@@ -264,12 +262,12 @@ const MainNav = () => {
                     <div className={classes.grow} />
 
                     <div className={classes.sectionDesktop}>
-                            <Link className={classes.header} href='#' onClick={event => event.preventDefault()} noWrap>
+                            <RouterLink className={classes.header} to='/my-students'>
                                 Your students
-                            </Link>
-                            <Link className={classes.header} href="#" onClick={event => event.preventDefault()} noWrap>
+                            </RouterLink>
+                            <RouterLink className={classes.header} to="/find-students">
                                 Find students
-                            </Link>
+                            </RouterLink>
                             <Button 
                                 aria-label="show more"
                                 aria-controls='dropdown'

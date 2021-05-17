@@ -1,0 +1,67 @@
+#container {
+    padding-top: calc(64px + 50px);
+}
+
+#content {
+    position: relative;
+    width: 78vw;
+    left: 11vw;
+}
+
+#info p:first-of-type {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+#info p:nth-of-type(2) {
+    font-size: 20px;
+    color: #7C7C7C;
+    margin-top: 15px;
+}
+
+#info img {
+    float: right;
+}
+
+#categories {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+#categories > p {
+    color: #575757;
+}
+
+#categories > p > img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-left: 3px;
+    margin-top: -1px;
+}
+
+#categories svg {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+    color: #575757;
+}
+
+@media (min-width:1050px) {
+    #content {
+        width: 69vw;
+        left: 15.5vw;
+    }
+}
+
+@media (min-width:1450px) {
+    #content {
+        width: 1000px;
+        left: calc((100vw - 1000px) / 2);
+    }
+}
